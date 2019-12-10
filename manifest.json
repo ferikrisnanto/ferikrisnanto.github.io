@@ -1,0 +1,38 @@
+{
+    "name": "Supper Socer News PWA",
+    "short_name": "Super Socer",
+    "description": "Berita Terbaru Super Soccer Nasional, dan Internasional",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#00897B",
+    "prefer_related_applications": false,
+    "theme_color": "#00897B",
+    "gcm_sender_id": "736663332357",
+    "share_target": {
+        "action": "pages/target.html",
+        "method": "GET",
+        "enctype": "application/x-www-form-urlencoded",
+        "params": {
+          "title": "title",
+          "text": "text",
+          "url": "url"
+        }
+    },
+    "icons": [
+        {
+            "src": "img/icon/128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon/192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ]
+}
